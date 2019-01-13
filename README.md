@@ -2,7 +2,8 @@
 
 ## What's this ?
 QR Code generator implemented in pure JavaScript.
-Demo is available [here](https://michitaro.github.com/qrcode-generator/)
+Demo is available [here](https://michitaro.github.com/qrcode-generator/).
+This app uses [QRious](https://github.com/neocotic/qrious) as engine for QR Code generation.
 
 ## Usage
 ```sh
