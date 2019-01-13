@@ -1,18 +1,25 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+<template lang="pug">
+dl.home
+  dt URL
+  dd
+    input(type="text", v-model="url", size="80")
+  dt QRCode
+  dd
+    QRCode(:url="url")
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import QRCode from "@/components/QRCode.vue";
 
 @Component({
-  components: {
-    HelloWorld,
-  },
+  components: { QRCode }
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  url = ''
+}
 </script>
+
+
+<style lang="scss" scoped>
+</style>

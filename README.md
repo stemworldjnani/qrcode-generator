@@ -1,29 +1,14 @@
-# qrcode-gen
+# QR Code Generator
 
-## Project setup
-```
+## What's this ?
+QR Code generator implemented in pure JavaScript.
+Demo is available [here]()
+
+## Usage
+```sh
+git clone 
+cd qrcode-generator
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Then, open http://localhost:8080/
