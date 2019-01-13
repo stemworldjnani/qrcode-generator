@@ -2,7 +2,7 @@
 
 ## What's this ?
 QR Code generator implemented in pure JavaScript.
-Demo is available [here]()
+Demo is available [here](https://michitaro.github.com/qrcode-generator/)
 
 ## Usage
 ```sh
